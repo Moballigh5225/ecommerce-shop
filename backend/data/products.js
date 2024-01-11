@@ -1,6 +1,5 @@
 const products = [
   {
-    id: "1",
     name: "Airpods Wireless Bluetooth Headphones",
     image: "/images/airpods.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 10,
   },
   {
-    id: "2",
     name: "iphone 11 pro 256gb Memomry",
     image: "/images/phone.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 11,
   },
   {
-    id: "3",
     name: "Canon EOS 80D DSLR Camera",
     image: "/images/camera.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 7,
   },
   {
-    id: "4",
     name: "Sony Playstation 4 Pro White Version",
     image: "/images/playstation.jpg",
     description:
