@@ -28,7 +28,7 @@ const products = [
     image: "/images/camera.jpg",
     description:
       "AirPods deliver the wireless headphone experience, reimagined. Just pull them out of the Lightning Charging Case and they're ready to use with your iPhone, Apple Watch, iPad or Mac. After a simple one-tap setup, AirPods work like magic. They're automatically on and always connected.",
-    brand: "Apple",
+    brand: "Canon",
     category: "Electronics",
     price: 112.99,
     countInStock: 10,
