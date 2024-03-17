@@ -7,10 +7,11 @@ export const productsApiSlice = apiSlice.injectEndpoints({
     getProducts: builder.query({
       // note: an optional `queryFn` may be used in place of `query`
       // we need object so we are using parenthesis here ({})
-      query: ({ pageNumber }) => ({
+      query: ({ keyword, pageNumber }) => ({
         url: PRODUCTS_URL,
-        params: { pageNumber },
+        params: { keyword, pageNumber },
       }),
+      providesTags: ["Product"],
       keepUnusedDataFor: 5,
     }),
     getProductDetails: builder.query({
